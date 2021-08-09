@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Mi Rey Pirata</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".globodedialogo").fadeIn(0);
+            },3000);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".globodedialogoblack").fadeOut(0);
+            },3000);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".boton").fadeIn(0);
+            },7000);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".botonblack").fadeOut(0);
+            },7000);
+        });
+            </script>
+</head>
+<body>
+    <div class="third display-flex">
+            <div class="d-flex box3">
+                <div class="boxsanji display-flex">
+                    <img src="./assets/Sanji.png" alt="" class="sanji">
+                </div>
+                <div class="boxsanji display-flex">
+                    <img src="./assets/black.png" alt="" class="blackcontent">
+                    <img src="./assets/dialogo.png" alt="" style="display:none;" class="globodedialogo">
+                    <img src="./assets/dialogoblack.png" alt="" class="globodedialogoblack">
+                    <div class="boton" style="display:none;" >
+                        <a href="./fourthpage.html">Continuar</a>
+                    </div>
+                    <div class="botonblack">
+                        <a href="#">Continuar</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

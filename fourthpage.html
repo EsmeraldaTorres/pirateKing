@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Mi Rey Pirata</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".luffyin").fadeOut(0);
+            },2500);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".luffyout").fadeIn(0);
+            },2500);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".luffyout").fadeOut(0);
+            },4000);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".screen").fadeOut(0);
+            },4100);
+        });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".containerSecondScreen").fadeIn(0);
+            },4150);
+        });
+    </script>
+</head>
+<body>
+    <div class="second">
+        <div class="screen">
+            <img src="./assets/luffy.png" alt="" class="luffyin">
+            <img src="./assets/luffy.png" alt="" class="luffyout" style="display: none;">
+        </div>
+        <div class="containerSecondScreen" style="display: none;">
+          <h2>¿En qué restaurante está tu comida favorita?</h2> 
+          <div class="container display-flex">
+              <div class="circle col-md-6 col-lg-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf98BZCRUcsaY_MgKoIEPbJYFl7mhLixR-jitXiya3W0GzzhQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+                    <img src="./assets/lo.png" alt="kfc">
+                </a>
+              </div>
+              <div class="circle col-md-6 col-lg-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdndqw6XDlRW5Vf9QwsA1SfyRlX_kQJOv9d8LH0jKdNQJieTQ/viewform?usp=sf_link" target="_blank">
+                    <img src="./assets/opcion2.jpg" alt="alitas">
+                </a>
+              </div>
+              <div class="circle col-md-6 col-lg-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScaKr2CrXOGYri0VTqfQeNbA70CLtGpgNEaM2-W-Ja-SU_M2w/viewform?usp=sf_link" target="_blank">
+                    <img src="./assets/opcion3.jpg" alt="muncher">
+                </a>
+              </div>
+              <div class="circle col-md-6 col-lg-4">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScT2wD6pBmVE2f4UIFmUUVKnfKIfFxfJN3KeBqPYMAzI2AFWQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+                <img src="./assets/opcion4.jpg" alt="otro"></a>
+                <div class="otro">
+                    "Otro"
+                </div>
+              </div>
+              <div class="terminar">
+                  <a href="fivepage.html">Terminar</a>
+              </div>
+          </div>
+        </div>
+        
+    </div>
+</body>
+</html>
